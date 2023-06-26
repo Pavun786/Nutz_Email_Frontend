@@ -8,22 +8,23 @@ import { Button } from "@mui/material";
 
     return(
         <>
-        <div className="inbox">
-      <Button  variant="contained" style={{width:"100px", margin:"20px"}}
+
+<Button  variant="contained" style={{width:"100px", margin:"20px"}}
         onClick={()=> navigate(-1)}
         className="btn btn-sm btn-success mr-6"
-      >
-      Back
-      </Button>
-      </div>
-        <div className="viewEmail">
+        >
+         Back
+        </Button>
+        
+      <div className="viewEmail">
 
-        <div>
+       
+        
 
-         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEOKWxdW8wyji3KNo1i_9AcDu6L8K2NLw6JQ&usqp=CAU"/>
-          </div>
+         <img className="viewimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEOKWxdW8wyji3KNo1i_9AcDu6L8K2NLw6JQ&usqp=CAU"/>
+          
 
-            <div>
+            <div className="viewdetails">
             <h4>Id: {data.id}</h4>
             <h4>From: {data.from}</h4>
             <h4>To: {data.to}</h4>

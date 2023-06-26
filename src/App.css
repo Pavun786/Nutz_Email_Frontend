@@ -14,16 +14,25 @@
 .viewEmail{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+ 
+  /* width: 90%; */
   margin-left: 20px;
 }
+.viewimage{
 
-/* img{
-  height: 600px;
+  object-fit:cover;
+  width:400px;
+  height:400px;
+}
+
+.viewdetails{
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; */
   width: auto;
-  object-fit: contain;
-  
-} */
+}
+
+
 
 .home{
   display: flex;
